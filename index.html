@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Oleg Okeev — Herbal Medicine and Genetics</title>
+<meta name="description" content="Oleg Okeev: researcher linking traditional herbal medicine with genes and molecular pathways. Founder of Living Matrix. Volunteer curator at ClinGen. Based in Vietnam.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f7f5ef; --surface:#ffffff; --ink:#1d2420; --muted:#5b665f;
+  --line:#e2ddd0; --accent:#2f6b4f; --accent-soft:#e3efe7; --warm:#a0522d;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#121614; --surface:#1a201d; --ink:#e8ece9; --muted:#9aa69f;
+    --line:#2a332e; --accent:#7fc3a0; --accent-soft:#1f2e26; --warm:#e09a6f;
+  }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 Inter,system-ui,sans-serif}
+a{color:var(--accent)}
+.wrap{max-width:880px;margin:0 auto;padding:0 20px}
+header{padding:72px 0 40px;border-bottom:1px solid var(--line)}
+.kicker{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:600}
+h1{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:clamp(34px,6vw,54px);line-height:1.1;margin:10px 0 14px}
+h2{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:28px;margin:0 0 16px}
+h3{font-size:17px;margin:0 0 6px}
+.lead{font-size:19px;color:var(--muted);max-width:640px;margin:0}
+.links{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.btn{display:inline-block;padding:10px 16px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink);text-decoration:none;font-weight:500;font-size:15px}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--bg)}
+section{padding:52px 0;border-bottom:1px solid var(--line)}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px}
+.card p{margin:0;color:var(--muted);font-size:15px}
+.stats{display:flex;flex-wrap:wrap;gap:28px;margin:22px 0 0}
+.stat b{display:block;font-family:Fraunces,Georgia,serif;font-size:32px;color:var(--accent);line-height:1}
+.stat span{font-size:14px;color:var(--muted)}
+.passport{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.passport .head{padding:16px 20px;background:var(--accent-soft);display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.passport .head b{font-family:Fraunces,Georgia,serif;font-size:20px}
+.passport .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.passport .col{padding:18px 20px;border-top:1px solid var(--line)}
+.passport .col + .col{border-left:1px solid var(--line)}
+.label{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--warm);font-weight:600;margin-bottom:8px}
+ul{margin:0;padding-left:18px}
+li{margin:4px 0}
+.ev{display:grid;gap:8px;margin-top:10px}
+.ev div{display:flex;gap:12px;align-items:baseline}
+.ev code{font:600 14px Inter,sans-serif;color:var(--accent);min-width:46px}
+.tl{border-left:2px solid var(--line);padding-left:18px;display:grid;gap:18px}
+.tl .when{font-size:13px;color:var(--muted)}
+footer{padding:36px 0 60px;color:var(--muted);font-size:14px}
+@media (max-width:560px){.passport .col + .col{border-left:0}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="kicker">Living Matrix · Vietnam</div>
+  <h1>Oleg Okeev</h1>
+  <p class="lead">I connect traditional herbal medicine with modern molecular data: from the taste and temperature of a plant in Chinese medicine to its compounds, genes and pathways.</p>
+  <div class="links">
+    <a class="btn primary" href="https://www.linkedin.com/in/oleg-okeev-588b58148/">LinkedIn</a>
+    <a class="btn" href="https://www.upwork.com/freelancers/~01985ac41423a86f9d">Hire me on Upwork</a>
+    <a class="btn" href="#passport">Example plant passport</a>
+  </div>
+</header>
+
+<section>
+  <h2>What I work on</h2>
+  <div class="grid">
+    <div class="card"><h3>Herb–gene research</h3><p>Mapping herbs, their active compounds, target genes and diseases across biomedical databases, with sources for every link.</p></div>
+    <div class="card"><h3>TCM knowledge bases</h3><p>Structured notes on herbs, formulas and meridians from 30+ practitioners and authors, cross-checked into a consensus view.</p></div>
+    <div class="card"><h3>Genetic evidence curation</h3><p>Volunteer curator at ClinGen: annotating gene–disease evidence from the literature with HGVS nomenclature and ClinVar.</p></div>
+    <div class="card"><h3>Herbal products</h3><p>Export background with Vietnamese herbal teas, natural cosmetics and traditional Đông y products.</p></div>
+  </div>
+  <div class="stats">
+    <div class="stat"><b>5,000+</b><span>structured notes</span></div>
+    <div class="stat"><b>45</b><span>biomedical databases</span></div>
+    <div class="stat"><b>30+</b><span>expert sources compared</span></div>
+  </div>
+</section>
+
+<section>
+  <h2>Living Matrix</h2>
+  <p>Wine and specialty coffee have a shared vocabulary for quality. Medicinal plants still do not. Living Matrix gives every plant two passports that describe the same thing in two languages:</p>
+  <div class="grid">
+    <div class="card"><h3>Traditional passport</h3><p>Taste, temperature, channels it enters and organs it affects, as described in Chinese medicine and Ayurveda.</p></div>
+    <div class="card"><h3>Molecular passport</h3><p>Lead compounds, target genes, pathways, and what can be seen in lab tests.</p></div>
+    <div class="card"><h3>Personal response</h3><p>What the plant does in one body: sleep, heart-rate variability, season. N = 1.</p></div>
+  </div>
+  <p style="margin-top:18px">The idea underneath: taste is data. Bitter often points to polyphenols, pungent to volatile terpenes, astringent to tannins. Old herbalists ran a sensory assay without knowing the molecules. Now the two can be matched.</p>
+</section>
+
+<section id="passport">
+  <h2>Example: chrysanthemum + black goji</h2>
+  <div class="passport">
+    <div class="head"><b>Chrysanthemum morifolium + Lycium ruthenicum</b><span>Classic pair: “clear Liver heat, brighten the eyes”</span></div>
+    <div class="cols">
+      <div class="col">
+        <div class="label">Traditional passport</div>
+        <ul>
+          <li>Chrysanthemum (Jú Huā): sweet, bitter, slightly cold; enters the Lung and Liver channels</li>
+          <li>Used together to clear heat and support the eyes</li>
+        </ul>
+      </div>
+      <div class="col">
+        <div class="label">Molecular passport</div>
+        <ul>
+          <li>Black goji: anthocyanins, mostly petunidin glycosides; linked to lower AGEs, calmer RAGE signalling and gut microbiota changes (Wang 2018; Jin 2015)</li>
+          <li>Chrysanthemum: luteolin and apigenin, studied for retinal microcirculation and vasodilation</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col">
+      <div class="label">Reading</div>
+      “Clearing Liver heat” here reads as anti-inflammatory plus endothelial support. Two languages, one territory.
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>How I label evidence</h2>
+  <p>Database links between a plant and a gene are often lab-dish results, not clinical facts. I mark every claim:</p>
+  <div class="ev">
+    <div><code>★★★</code><span>Human clinical studies</span></div>
+    <div><code>★★</code><span>Animal studies</span></div>
+    <div><code>★</code><span>In vitro or computational prediction</span></div>
+    <div><code>📜</code><span>Traditional use only</span></div>
+  </div>
+</section>
+
+<section>
+  <h2>Experience</h2>
+  <div class="tl">
+    <div><div class="when">Oct 2026 — now</div><h3>Volunteer Curator, ClinGen (Clinical Genome Resource)</h3>Baseline Annotation, Genetic Evidence.</div>
+    <div><div class="when">Ongoing</div><h3>Founder, Living Matrix</h3>Open standard linking medicinal plants to traditional and molecular descriptions.</div>
+    <div><div class="when">Ongoing</div><h3>Founder &amp; Export Operations Lead</h3>Vietnamese specialty brands: herbal teas, natural cosmetics, artisan coffee, Đông y products.</div>
+  </div>
+</section>
+
+<section>
+  <h2>Work with me</h2>
+  <ul>
+    <li>Herb–gene and herb–drug interaction reports with sources and evidence levels</li>
+    <li>Literature reviews on TCM and phytotherapy (Russian, English, Chinese terms)</li>
+    <li>Knowledge bases in Obsidian / Markdown</li>
+    <li>Data curation and annotation for health and biology AI datasets</li>
+    <li>Ingredient research and supplier checks for herbal brands</li>
+  </ul>
+  <div class="links">
+    <a class="btn primary" href="https://www.linkedin.com/in/oleg-okeev-588b58148/">Message me on LinkedIn</a>
+    <a class="btn" href="https://www.upwork.com/freelancers/~01985ac41423a86f9d">Upwork profile</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 Oleg Okeev · Vietnam · Nothing on this page is medical advice.
+</footer>
+
+</div>
+</body>
+</html>
